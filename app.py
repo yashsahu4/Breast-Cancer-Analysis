@@ -66,10 +66,3 @@ st.write(f"**Prediction Probability:**")
 st.write(f"  - Malignant: {prediction_proba[0][1]:.2f}")
 st.write(f"  - Benign: {prediction_proba[0][0]:.2f}")
 
-# Optional: Add a chart to visualize the prediction probabilities
-fig, ax = plt.subplots()
-labels = ['Benign', 'Malignant']
-ax.bar(labels, prediction_proba[0])
-ax.set_ylabel('Probability')
-ax.set_title('Prediction Probability')
-st.pyplot(fig)
