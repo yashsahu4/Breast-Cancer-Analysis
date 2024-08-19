@@ -15,9 +15,12 @@ To run the Streamlit app, use the following command:
 streamlit run app.py
 
 ## Features
-# Interactive Web App: Built using Streamlit to allow users to input breast cancer data and view predictions.
-# Predictive Model: Utilizes an Artificial Neural Network (ANN) for classifying breast cancer data.
-# Data Analysis: Comprehensive analysis of the breast cancer dataset, including feature selection and model tuning.
+# Interactive Web App:
+Built using Streamlit to allow users to input breast cancer data and view predictions.
+# Predictive Model:
+Utilizes an Artificial Neural Network (ANN) for classifying breast cancer data.
+# Data Analysis: 
+Comprehensive analysis of the breast cancer dataset, including feature selection and model tuning.
 ## Contributing
 Contributions are welcome! Please follow the contributing guidelines for submitting pull requests.
 
